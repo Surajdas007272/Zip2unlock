@@ -32,10 +32,12 @@
 ### 📲 For Termux / Android:
 
 ```bash
-pkg update && pkg upgrade -y
-pkg install git unzip -y
+pkg update -y && pkg upgrade -y
+pkg install git unzip dos2unix -y
+rm -rf Zip2unlock
 git clone https://github.com/Surajdas007272/Zip2unlock
 cd Zip2unlock
+dos2unix decoded.sh
 bash decoded.sh
 ```
 
