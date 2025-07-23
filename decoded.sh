@@ -7,7 +7,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-# Set color
+# Colors
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No color
@@ -55,16 +55,16 @@ if [ ! -f "$zipfile" ]; then
   exit 1
 fi
 
-# Ask for wordlist
-read -p "Enter wordlist filename: " wordlist
+# Use included wordlist
+wordlist="d3c0d3d.txt"
 if [ ! -f "$wordlist" ]; then
-  echo -e "${RED}[✘] Wordlist file not found!${NC}"
+  echo -e "${RED}[✘] Wordlist file '$wordlist' not found in current folder!${NC}"
   exit 1
 fi
 
-# Try each password
+# Start cracking
 echo ""
-echo -e "${GREEN}[*] Starting brute-force...${NC}"
+echo -e "${GREEN}[*] Starting brute-force using '$wordlist'...${NC}"
 while read -r pass; do
   echo -ne "Trying: $pass\r"
   unzip -P "$pass" -t "$zipfile" &>/dev/null
