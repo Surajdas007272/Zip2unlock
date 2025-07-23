@@ -36,7 +36,7 @@ pkg update && pkg upgrade -y
 pkg install git unzip -y
 git clone https://github.com/Surajdas007272/Zip2unlock
 cd Zip2unlock
-bash decoded-zip-cracker.sh
+bash decoded.sh
 ```
 
 ### 🖥️💻 For kali & ubuntu:
@@ -45,5 +45,5 @@ bash decoded-zip-cracker.sh
 sudo apt update && sudo apt install unzip git -y
 git clone https://github.com/Surajdas007272/Zip2unlock
 cd Zip2unlock
-bash decoded-zip-cracker.sh
+bash decoded.sh
 ```
