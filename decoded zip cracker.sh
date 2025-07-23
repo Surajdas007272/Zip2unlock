@@ -36,7 +36,7 @@ $$$$"""$$$$$$$$$$uuu   uu$$$$$$$$$"""$$$"
      $$$"                         $$$$"   
  EOF
 
-
+echo -e "${NC}"
 
 # === Configuration ===
 zip_file="secret.zip"
