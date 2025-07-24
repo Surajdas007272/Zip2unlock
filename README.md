@@ -32,6 +32,10 @@
 ### 📲 For Termux / Android:
 
 ```bash
+pkg install git unzip dos2unix -y
+```
+
+```bash
 pkg update -y && pkg upgrade -y
 pkg install git unzip dos2unix -y
 rm -rf Zip2unlock
