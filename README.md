@@ -9,7 +9,7 @@
 <p align="center"><b>A blazing-fast password cracker for ZIP files written in pure Bash ⚡<br>Made for Termux, Ubuntu, Kali Linux and real Cyber Warriors 🧠</b></p>
 
 ---
-<img src="https://github.com/Surajdas007272/Zip2unlock/blob/main/Images/hacker.gif" style="align-item:center;"></img>
+<img src="https://github.com/Surajdas007272/Zip2unlock/blob/main/Images/hacker.gif" alt="My Image"></img>
 
 ## 🧩 About This Tool
 
