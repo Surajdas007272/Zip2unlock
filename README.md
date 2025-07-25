@@ -9,6 +9,7 @@
 <p align="center"><b>A blazing-fast password cracker for ZIP files written in pure Bash ⚡<br>Made for Termux, Ubuntu, Kali Linux and real Cyber Warriors 🧠</b></p>
 
 ---
+<img src=""></img>
 
 ## 🧩 About This Tool
 
